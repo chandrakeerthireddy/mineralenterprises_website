@@ -1,0 +1,33 @@
+<svg width="200" height="96" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 96" fill="none">
+  
+  <defs>
+    <linearGradient id="gM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d7258"/>
+      <stop offset="100%" stop-color="#1b3d2f"/>
+    </linearGradient>
+    <linearGradient id="gE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d070"/>
+      <stop offset="100%" stop-color="#c8952e"/>
+    </linearGradient>
+    <filter id="rimM" x="-15%" y="-15%" width="200" height="96">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#4a8068" flood-opacity="0.6"/>
+    </filter>
+    <filter id="rimE" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2.5" flood-color="#e4b04a" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+  <g filter="url(#rimM)">
+    <path d="M6 84V10h14l20 34 20-34h14v74H58V46L38 76 18 46v38H6z" fill="url(#gM)"/>
+    <path d="M58 10h12v74H58V10z" fill="url(#gM)"/>
+  </g>
+  <path d="M7 16h12v3H7V16z" fill="#fff" opacity="0.2"/>
+  <path d="M10 62l5-10 4 7 6-12 5 9" stroke="#f0c85a" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <g filter="url(#rimE)">
+    <path d="M78 10h62l-10 14H78V10z" fill="url(#gE)"/>
+    <path d="M78 40h48l-8 14H78V40z" fill="url(#gE)"/>
+    <path d="M78 70h62l-10 14H78V70z" fill="url(#gE)"/>
+  </g>
+  <path d="M79 11h55l-1 2H79V11z" fill="#fff" opacity="0.35"/>
+  <path d="M79 41h42l-1 2H79V41z" fill="#fff" opacity="0.3"/>
+  <path d="M79 71h55l-1 2H79V71z" fill="#fff" opacity="0.35"/>
+</svg>

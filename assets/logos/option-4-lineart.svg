@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#ffffff"/>
+  <!-- Monoline angular M+E -->
+  <path d="M22 88V32h8l14 26 14-26h8v56h-8V54L44 82 30 54v34h-8z" stroke="#1b3d2f" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  <path d="M66 88V32h8v20h20V32h8v56h-8V60H74v28h-8z" stroke="#c8952e" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  <circle cx="60" cy="60" r="46" stroke="#1b3d2f" stroke-width="1.5" opacity="0.2"/>
+</svg>

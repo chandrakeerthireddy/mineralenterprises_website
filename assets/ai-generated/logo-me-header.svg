@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 72" fill="none" role="img" aria-label="Mineral Enterprises ME mark">
+  <defs>
+    <linearGradient id="mg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d5a45"/>
+      <stop offset="100%" stop-color="#1b3d2f"/>
+    </linearGradient>
+    <linearGradient id="eg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8952e"/>
+      <stop offset="100%" stop-color="#e4b04a"/>
+    </linearGradient>
+  </defs>
+  <!-- E behind -->
+  <g>
+    <rect x="46" y="6" width="9" height="60" fill="url(#eg)"/>
+    <path d="M55 6h58l-9 9H64V6z" fill="url(#eg)"/>
+    <path d="M55 28h44v9H64v-9z" fill="url(#eg)"/>
+    <path d="M55 48h58l-9 9H64V48z" fill="url(#eg)"/>
+  </g>
+  <!-- M in front, overlaps E -->
+  <path d="M4 66V6h13l15 24 15-24h13v60H50V40L34 58 18 40v26H4z" fill="url(#mg)"/>
+  <path d="M10 50l4-8 3 6 5-10 4 8" stroke="#c8952e" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M8 56l3-5 2 4" stroke="#e4b04a" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+</svg>

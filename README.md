@@ -38,6 +38,18 @@ mineralenterprises_website/
 ├── contact.html
 ├── css/styles.css
 ├── js/main.js
+├── assets/
+│   ├── ai-generated/          # ME mark (active on site) — green & gold
+│   │   ├── logo-icon-transparent.png
+│   │   ├── logo-transparent.png
+│   │   └── favicon.png
+│   ├── official/              # Designer logo from Source File 2
+│   │   ├── logo-full-transparent.png
+│   │   ├── logo-full.png
+│   │   ├── logo-icon-transparent.png
+│   │   └── favicon.png
+│   └── source/                # Original AI, EPS, PDF files
+├── logo-compare.html          # Side-by-side logo comparison
 ├── CNAME                  # For GitHub Pages custom domain
 └── README.md
 ```
@@ -64,7 +76,8 @@ Drag-and-drop the folder or connect the GitHub repo. Point `mineralenterprises.n
 - [ ] Add real office and plant addresses in `contact.html`
 - [ ] Add phone numbers and LinkedIn/social links
 - [ ] Replace placeholder stats with actual company figures
-- [ ] Add company logo image (replace text "ME" mark in header)
+- [x] Add company logo from `assets/source/` (official designer files in `assets/official/`)
+- [x] AI-generated ME mark preserved in `assets/ai-generated/` — compare at `logo-compare.html`
 - [ ] Wire contact form to a backend (Formspree, Netlify Forms, or custom API)
 - [ ] Add Google Maps embed on contact page
 - [ ] Replace Unsplash stock photos with actual facility/product photos

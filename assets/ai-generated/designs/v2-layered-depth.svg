@@ -1,0 +1,24 @@
+<svg width="160" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none">
+  
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d5a45"/>
+      <stop offset="100%" stop-color="#1b3d2f"/>
+    </linearGradient>
+    <filter id="sh2" x="-10%" y="-10%" width="160" height="80">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f1a14" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#sh2)">
+    <path d="M6 70V14h14l16 28 16-28h14v56H54V36L38 62 22 36v34H6z" fill="#143028"/>
+    <path d="M8 68V16h12l18 30 18-30h12v52H52V38L34 66 16 38v30H8z" fill="url(#g2)"/>
+  </g>
+  
+  <path d="M10 48 L16 38 L20 46 L26 34 L30 44" stroke="#c8952e" stroke-width="2.2" stroke-linejoin="round" fill="none"/>
+  <path d="M10 56 L14 50 L18 55" stroke="#e4b04a" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  
+  <path d="M58 16h42l-6 9H58V16z" fill="#c8952e"/>
+  <path d="M58 35h32l-5 9H58V35z" fill="#c8952e"/>
+  <path d="M58 54h42l-6 10H58V54z" fill="#c8952e"/>
+  <path d="M58 16v48" stroke="#1b3d2f" stroke-width="1" opacity="0.2"/>
+</svg>

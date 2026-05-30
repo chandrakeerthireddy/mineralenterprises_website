@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#ffffff"/>
+  <!-- Shield badge -->
+  <path d="M60 18L92 32v28c0 22-14 38-32 44-18-6-32-22-32-44V32L60 18z" fill="#1b3d2f"/>
+  <path d="M60 26L84 37v23c0 17-11 30-24 35-13-5-24-18-24-35V37l24-11z" fill="#2d5a45"/>
+  <!-- ME inside shield -->
+  <path d="M42 78V46h6l8 14 8-14h6v32h-6V58l-8 12-8-12v20h-6z" fill="#ffffff"/>
+  <path d="M68 78V46h5v11h11V46h5v32h-5V62H73v16h-5z" fill="#c8952e"/>
+</svg>

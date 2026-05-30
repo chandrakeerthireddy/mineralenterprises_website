@@ -9,14 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231b3d2f' width='100' height='100' rx='12'/><text x='50' y='68' font-size='48' text-anchor='middle' fill='%23c8952e' font-family='serif'>ME</text></svg>">
+  <link rel="icon" href="assets/ai-generated/favicon.png" type="image/png">
 </head>
-<body>
+<body class="page-brand">
 
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="logo">
-        <div class="logo-mark">ME</div>
+        <div class="logo-mark"><img src="assets/ai-generated/logo-me.png?v=15" srcset="assets/ai-generated/logo-me@2x.png?v=15 2x" alt="Mineral Enterprises"></div>
         <div class="logo-text">
           <span class="logo-name">Mineral Enterprises</span>
           <span class="logo-tagline">Mining &amp; Trading</span>
@@ -82,10 +82,47 @@
     </div>
   </div>
 
+  <section class="value-chain" id="journey">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Value Chain</span>
+        <h2 class="section-title">From Quarry to Global Industries</h2>
+        <p class="section-desc">Five integrated stages — extraction through export — delivering consistent quality at every step.</p>
+      </div>
+      <div class="chain-track">
+        <article class="chain-step">
+          <div class="chain-icon">01</div>
+          <h3>Mining</h3>
+          <p>Responsible open-pit extraction with disciplined material selection.</p>
+        </article>
+        <article class="chain-step">
+          <div class="chain-icon">02</div>
+          <h3>Processing</h3>
+          <p>Crushing, grinding, and classification for uniform particle specs.</p>
+        </article>
+        <article class="chain-step">
+          <div class="chain-icon">03</div>
+          <h3>Quality Control</h3>
+          <p>In-house laboratory testing aligned with international standards.</p>
+        </article>
+        <article class="chain-step">
+          <div class="chain-icon">04</div>
+          <h3>Packaging</h3>
+          <p>25 kg bags to 1000 kg bulk — tailored to your logistics needs.</p>
+        </article>
+        <article class="chain-step">
+          <div class="chain-icon">05</div>
+          <h3>Global Export</h3>
+          <p>Port dispatch and documentation to manufacturing hubs worldwide.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section id="about">
     <div class="container about-grid">
       <div class="about-image">
-        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80" alt="Mineral processing facility">
+        <img loading="lazy" src="assets/images/about-facility.jpg" alt="Mineral processing facility">
         <div class="about-image-accent"></div>
       </div>
       <div class="about-content">
@@ -95,7 +132,7 @@
           Mineral Enterprises is a full-service mining and trading company specializing in the extraction, processing, and global distribution of industrial minerals. We combine deep quarry expertise with modern production lines to serve paint, plastics, paper, rubber, steel, and construction industries.
         </p>
         <p>
-          Inspired by industry leaders across Asia, we maintain rigorous quality control at every stage — from raw material selection through final packaging and export logistics.
+          We maintain rigorous quality control at every stage — from raw material selection through final packaging and export logistics.
         </p>
         <div class="about-features">
           <div class="about-feature">
@@ -132,7 +169,7 @@
     </div>
   </section>
 
-  <section class="advantages">
+  <section class="advantages" id="advantages">
     <div class="container">
       <div class="section-header">
         <span class="section-label">Our Advantages</span>
@@ -182,9 +219,9 @@
         <p class="section-desc">Prestige, quality, and value — our product range serves diverse industrial applications across the globe.</p>
       </div>
       <div class="products-grid">
-        <article class="product-card">
+        <article class="product-card product-card--featured">
           <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1611273426858-450d8e129c82?w=600&q=80" alt="Calcium Carbonate powder">
+            <img loading="lazy" src="assets/images/product-caco3.jpg" alt="Calcium Carbonate powder">
           </div>
           <div class="product-body">
             <h3>Calcium Carbonate (CaCO₃)</h3>
@@ -198,7 +235,7 @@
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2179?w=600&q=80" alt="Iron ore">
+            <img loading="lazy" src="assets/images/product-iron.jpg" alt="Iron ore">
           </div>
           <div class="product-body">
             <h3>Iron Ore &amp; Pellets</h3>
@@ -212,7 +249,7 @@
         </article>
         <article class="product-card">
           <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&q=80" alt="Industrial minerals">
+            <img loading="lazy" src="assets/images/product-minerals.jpg" alt="Industrial minerals">
           </div>
           <div class="product-body">
             <h3>Industrial Minerals</h3>
@@ -225,37 +262,101 @@
           </div>
         </article>
       </div>
-      <div style="text-align:center; margin-top:2.5rem;">
+      <div class="section-cta">
         <a href="products.html" class="btn btn-dark">View Full Product Range</a>
       </div>
     </div>
   </section>
 
-  <section class="applications">
+  <section class="applications" id="applications">
     <div class="container">
       <div class="section-header">
         <span class="section-label">Applications</span>
         <h2 class="section-title">Industries We Serve</h2>
         <p class="section-desc">Our minerals are essential inputs across a wide range of high-value industrial sectors.</p>
       </div>
-      <div class="app-grid">
-        <div class="app-item"><div class="app-icon">🎨</div><h4>Paint &amp; Coatings</h4></div>
-        <div class="app-item"><div class="app-icon">🔧</div><h4>Plastics &amp; PVC</h4></div>
-        <div class="app-item"><div class="app-icon">📄</div><h4>Paper &amp; Pulp</h4></div>
-        <div class="app-item"><div class="app-icon">⭕</div><h4>Rubber &amp; Tyres</h4></div>
-        <div class="app-item"><div class="app-icon">🏗</div><h4>Construction</h4></div>
-        <div class="app-item"><div class="app-icon">⚡</div><h4>Cable &amp; Wire</h4></div>
-        <div class="app-item"><div class="app-icon">🏭</div><h4>Steel &amp; Metallurgy</h4></div>
-        <div class="app-item"><div class="app-icon">🧪</div><h4>Chemicals</h4></div>
+    </div>
+    <div class="app-scroll-outer">
+      <div class="app-scroll-track" id="app-scroll-track" tabindex="0" aria-label="Industry applications — scroll horizontally">
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/paint-coatings.jpg?v=3" alt="Paint and coatings manufacturing">
+          <div class="app-card-overlay">
+            <span>01</span>
+            <h4>Paint &amp; Coatings</h4>
+            <p>High-brightness fillers for architectural and industrial coatings.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/plastics-pvc.jpg?v=3" alt="Plastics and PVC production">
+          <div class="app-card-overlay">
+            <span>02</span>
+            <h4>Plastics &amp; PVC</h4>
+            <p>Cost-effective mineral fillers for masterbatch and polymer compounds.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/paper-pulp.jpg?v=3" alt="Paper and pulp mill">
+          <div class="app-card-overlay">
+            <span>03</span>
+            <h4>Paper &amp; Pulp</h4>
+            <p>Fine-ground calcium carbonate for coating and filling applications.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/rubber-tyres.jpg?v=3" alt="Rubber and tyre manufacturing">
+          <div class="app-card-overlay">
+            <span>04</span>
+            <h4>Rubber &amp; Tyres</h4>
+            <p>Reinforcing mineral grades for rubber compounding and tyre production.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/construction.jpg?v=3" alt="Construction materials">
+          <div class="app-card-overlay">
+            <span>05</span>
+            <h4>Construction</h4>
+            <p>Aggregates and mineral additives for cement and building materials.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/cable-wire.jpg?v=3" alt="Cable and wire manufacturing">
+          <div class="app-card-overlay">
+            <span>06</span>
+            <h4>Cable &amp; Wire</h4>
+            <p>Ultra-fine fillers for flame-retardant cable compounds.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/steel-metallurgy.jpg?v=3" alt="Steel and metallurgy">
+          <div class="app-card-overlay">
+            <span>07</span>
+            <h4>Steel &amp; Metallurgy</h4>
+            <p>Iron ore fines, lumps, and pellets for steelmaking.</p>
+          </div>
+        </article>
+        <article class="app-card">
+          <img loading="lazy" src="assets/images/applications/chemicals.jpg?v=3" alt="Chemical processing">
+          <div class="app-card-overlay">
+            <span>08</span>
+            <h4>Chemicals</h4>
+            <p>High-purity mineral inputs for chemical processing and formulations.</p>
+          </div>
+        </article>
+      </div>
+      <div class="app-scroll-nav">
+        <button type="button" class="app-scroll-btn app-scroll-btn--prev" aria-label="Scroll applications left">←</button>
+        <button type="button" class="app-scroll-btn app-scroll-btn--next" aria-label="Scroll applications right">→</button>
       </div>
     </div>
+    <p class="app-scroll-hint">Scroll to explore industries →</p>
   </section>
 
-  <div class="markets-strip">
+  <div class="markets-strip" id="markets">
     <div class="container">
-      <div class="section-header" style="margin-bottom:2rem;">
+      <div class="section-header">
         <span class="section-label">Global Markets</span>
-        <h2 class="section-title" style="font-size:1.5rem;">Export Destinations</h2>
+        <h2 class="section-title">Export Destinations</h2>
+        <p class="section-desc">Serving partners across Asia, the Middle East, and beyond.</p>
       </div>
       <div class="markets-list">
         <span class="market-item">India</span>
@@ -271,7 +372,7 @@
     </div>
   </div>
 
-  <section class="cta-banner">
+  <section class="cta-banner" id="contact-cta">
     <div class="container">
       <h2>Ready to Partner With Us?</h2>
       <p>We are ready to support our valued partners and customers with high-quality products, competitive prices, and dedicated service.</p>
@@ -282,7 +383,15 @@
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <div class="logo-name">Mineral Enterprises</div>
+        <a href="index.html" class="logo footer-logo">
+          <div class="logo-mark">
+            <img src="assets/ai-generated/logo-me.png?v=15" srcset="assets/ai-generated/logo-me@2x.png?v=15 2x" alt="Mineral Enterprises">
+          </div>
+          <div class="logo-text">
+            <span class="logo-name">Mineral Enterprises</span>
+            <span class="logo-tagline">Mining &amp; Trading</span>
+          </div>
+        </a>
         <p>A trusted partner in mineral mining, processing, and international trading — delivering quality industrial minerals to markets worldwide.</p>
         <div class="footer-social">
           <a href="#" aria-label="LinkedIn">in</a>
@@ -315,7 +424,7 @@
     </div>
     <div class="container footer-bottom">
       <span>&copy; 2026 Mineral Enterprises. All rights reserved.</span>
-      <span><a href="https://mineralenterprises.net">mineralenterprises.net</a></span>
+      <span><a href="logo-preview.html">Logo designs</a> · <a href="https://mineralenterprises.net">mineralenterprises.net</a></span>
     </div>
   </footer>
 

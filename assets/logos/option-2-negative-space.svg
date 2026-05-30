@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#ffffff"/>
+  <!-- M with E cut out (negative space) -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M20 92V28h16l14 24 14-24h16v64H76V54L62 78 48 54v38H20zm44-8h12V72H64v12zm0-20h12V52H64v12zm0-20h12V32H64v12z" fill="#1b3d2f"/>
+  <rect x="64" y="32" width="12" height="12" fill="#c8952e"/>
+  <rect x="64" y="52" width="12" height="12" fill="#c8952e"/>
+  <rect x="64" y="72" width="12" height="12" fill="#c8952e"/>
+</svg>

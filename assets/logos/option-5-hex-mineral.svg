@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#ffffff"/>
+  <!-- Hex mineral crystal frame (trending tech-industrial) -->
+  <path d="M60 16l38 22v44L60 104 22 82V38L60 16z" stroke="#1b3d2f" stroke-width="3" fill="#f7f5f0"/>
+  <path d="M60 24l30 17v34L60 96 30 75V41L60 24z" fill="#1b3d2f"/>
+  <path d="M38 72V48h8l6 10 6-10h8v24h-7V58l-5 8-5-8v14h-7z" fill="#ffffff"/>
+  <path d="M68 72V48h7v9h9V48h7v24h-7V60h-9v12h-7z" fill="#c8952e"/>
+</svg>

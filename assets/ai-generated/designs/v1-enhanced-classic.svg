@@ -1,0 +1,25 @@
+<svg width="160" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 80" fill="none">
+  
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d5a45"/>
+      <stop offset="100%" stop-color="#1b3d2f"/>
+    </linearGradient>
+    <linearGradient id="gold1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8952e"/>
+      <stop offset="100%" stop-color="#e4b04a"/>
+    </linearGradient>
+  </defs>
+  
+  <path d="M8 68V16h12l18 30 18-30h12v52H52V38L34 66 16 38v30H8z" fill="url(#g1)"/>
+  
+  <path d="M52 16h10v52H52V16z" fill="url(#g1)"/>
+  
+  <path d="M14 52l4-8 3 6 5-10 4 8" stroke="#c8952e" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M12 58l3-5 2 4" stroke="#e4b04a" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  
+  <rect x="62" y="16" width="160" height="80" rx="1" fill="url(#gold1)"/>
+  <rect x="62" y="35" width="28" height="9" rx="1" fill="url(#gold1)"/>
+  <rect x="62" y="54" width="38" height="9" rx="1" fill="url(#gold1)"/>
+  <path d="M62 16v47" stroke="#c8952e" stroke-width="3" opacity="0.3"/>
+</svg>

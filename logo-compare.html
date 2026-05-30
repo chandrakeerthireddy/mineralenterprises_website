@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo Comparison | Mineral Enterprises</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    body { padding: 2rem 0 4rem; }
+    .compare-intro { text-align: center; margin-bottom: 3rem; }
+    .compare-intro h1 { font-family: var(--font-display); color: var(--color-primary); margin-bottom: 0.5rem; }
+    .compare-intro p { color: var(--color-text-muted); max-width: 640px; margin: 0 auto 1rem; }
+    .compare-intro a { color: var(--color-accent); font-weight: 600; }
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 3rem; }
+    .compare-card { border: 1px solid var(--color-border); border-radius: var(--radius); overflow: hidden; background: #fff; }
+    .compare-card.active { border-color: var(--color-accent); box-shadow: 0 0 0 2px rgba(200,149,46,0.2); }
+    .compare-card-header { padding: 1rem 1.25rem; border-bottom: 1px solid var(--color-border); }
+    .compare-card-header h2 { font-family: var(--font-body); font-size: 1rem; color: var(--color-primary); margin-bottom: 0.25rem; }
+    .compare-card-header span { font-size: 0.8rem; color: var(--color-text-muted); }
+    .badge { display: inline-block; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; background: var(--color-accent); color: #fff; padding: 0.2rem 0.5rem; border-radius: 4px; margin-bottom: 0.5rem; }
+    .badge-official { background: #e06620; }
+    .preview-pane { padding: 2rem; min-height: 160px; display: flex; align-items: center; justify-content: center; }
+    .preview-pane.dark { background: var(--color-bg-dark); }
+    .preview-pane.light { background: #fff; border-top: 1px solid var(--color-border); }
+    .preview-pane img { max-width: 100%; max-height: 80px; object-fit: contain; }
+    .preview-pane .logo-lockup { display: flex; align-items: center; gap: 0.75rem; }
+    .preview-pane .logo-lockup img.icon { height: 48px; width: auto; }
+    .preview-pane .logo-lockup .name { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; }
+    .preview-pane.dark .logo-lockup .name { color: #fff; }
+    .preview-pane.dark .logo-lockup .tag { font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-accent); }
+    .preview-pane.light .logo-lockup .name { color: var(--color-primary); }
+    .preview-label { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); padding: 0.5rem 1.25rem; background: var(--color-bg); border-top: 1px solid var(--color-border); }
+    .preview-pane.dark + .preview-label { background: #0a120e; color: rgba(255,255,255,0.45); border-color: rgba(255,255,255,0.08); }
+    .asset-list { padding: 1rem 1.25rem 1.25rem; font-size: 0.8rem; color: var(--color-text-muted); border-top: 1px solid var(--color-border); }
+    .asset-list code { font-size: 0.75rem; background: var(--color-bg); padding: 0.1rem 0.35rem; border-radius: 3px; }
+    @media (max-width: 768px) { .compare-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="compare-intro">
+      <h1>Logo Comparison</h1>
+      <p>Eight improved AI-style marks using your brand palette — forest green &amp; copper gold. Each includes mineral vein details and a complete E with spine.</p>
+      <p><a href="logo-preview.html" style="color:var(--color-accent);font-weight:600;">View all 8 design previews →</a> · <a href="index.html" class="back-link">Back to website</a></p>
+    </div>
+
+    <div class="compare-grid">
+      <!-- AI Generated -->
+      <article class="compare-card active">
+        <div class="compare-card-header">
+          <span class="badge">Active on site</span>
+          <h2>AI-Generated ME Mark</h2>
+          <span>Green M with mineral veins + gold E bars</span>
+        </div>
+        <div class="preview-pane dark">
+          <div class="logo-lockup">
+            <img class="icon" src="assets/ai-generated/logo-me.png?v=15" alt="">
+            <div>
+              <div class="name">Mineral Enterprises</div>
+              <div class="tag">Mining &amp; Trading</div>
+            </div>
+          </div>
+        </div>
+        <div class="preview-label">On dark header (current site)</div>
+        <div class="preview-pane light">
+          <img src="assets/ai-generated/logo-transparent.png" alt="AI logo full">
+        </div>
+        <div class="preview-label">Full mark on white</div>
+        <div class="asset-list">
+          <code>assets/ai-generated/logo-me.png?v=15</code><br>
+          <code>assets/ai-generated/logo-transparent.png</code><br>
+          <code>assets/ai-generated/favicon.png</code>
+        </div>
+      </article>
+
+      <!-- Official Designer -->
+      <article class="compare-card">
+        <div class="compare-card-header">
+          <span class="badge badge-official">Official — Source File 2</span>
+          <h2>Designer Logo (PDF/EPS/AI)</h2>
+          <span>Orange ME icon + MINERAL ENTERPRISES wordmark</span>
+        </div>
+        <div class="preview-pane dark">
+          <img src="assets/official/logo-full-transparent.png" alt="Official logo on dark">
+        </div>
+        <div class="preview-label">Full lockup on dark header</div>
+        <div class="preview-pane light">
+          <img src="assets/official/logo-full.png" alt="Official logo on white">
+        </div>
+        <div class="preview-label">Full lockup on white</div>
+        <div class="preview-pane dark" style="min-height:100px;">
+          <img src="assets/official/logo-icon-transparent.png" alt="Official icon" style="max-height:56px;">
+        </div>
+        <div class="preview-label">Icon mark only</div>
+        <div class="asset-list">
+          <code>assets/official/logo-full-transparent.png</code><br>
+          <code>assets/official/logo-full.png</code><br>
+          <code>assets/source/3532_Mineral Enterprises_logo_AS 5.pdf</code>
+        </div>
+      </article>
+    </div>
+
+    <div class="compare-intro">
+      <p>To switch the site to the official designer logo, let us know which version you prefer.</p>
+    </div>
+  </div>
+</body>
+</html>

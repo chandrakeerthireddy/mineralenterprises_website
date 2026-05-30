@@ -1,0 +1,34 @@
+<svg width="200" height="96" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 96" fill="none">
+  
+  <defs>
+    <linearGradient id="gM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b3d2f"/>
+      <stop offset="100%" stop-color="#0a1812"/>
+    </linearGradient>
+    <linearGradient id="gE" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4a840"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <filter id="inset">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <path d="M6 84V10h14l20 34 20-34h14v74H58V46L38 76 18 46v38H6z" fill="url(#gM)"/>
+  <path d="M58 10h12v74H58V10z" fill="url(#gM)"/>
+  <path d="M6 84V10h14l20 34 20-34h14v74H58V46L38 76 18 46v38H6z" fill="none" stroke="#0a1812" stroke-width="2" opacity="0.6"/>
+  <path d="M7 83V11h12l19 33 19-33h12v72H57V47L38 75 19 47v36H7z" fill="none" stroke="#3a6b54" stroke-width="0.8" opacity="0.5"/>
+  <path d="M10 62l5-10 4 7 6-12 5 9" stroke="#c8952e" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <path d="M77 9h64l-10 14H77V9z" fill="#5a4510" transform="translate(0,3)"/>
+  <path d="M77 39h50l-8 14H77V39z" fill="#5a4510" transform="translate(0,3)"/>
+  <path d="M77 69h64l-10 14H77V69z" fill="#5a4510" transform="translate(0,3)"/>
+  <path d="M78 10h62l-10 14H78V10z" fill="url(#gE)"/>
+  <path d="M78 40h48l-8 14H78V40z" fill="url(#gE)"/>
+  <path d="M78 70h62l-10 14H78V70z" fill="url(#gE)"/>
+  <path d="M79 11h58l-1 2H79V11z" fill="#fff" opacity="0.45"/>
+  <path d="M79 41h44l-1 2H79V41z" fill="#fff" opacity="0.4"/>
+  <path d="M79 71h58l-1 2H79V71z" fill="#fff" opacity="0.45"/>
+</svg>

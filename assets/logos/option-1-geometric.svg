@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#ffffff"/>
+  <!-- Geometric interlock: M pillar + E bars -->
+  <path d="M18 92V28h14l16 28 16-28h14v64H64V58L48 86 32 58v34H18z" fill="#1b3d2f"/>
+  <path d="M68 92V28h12v22h28V28h12v64H96V66H80v26H68z" fill="#c8952e"/>
+  <path d="M24 92h8V36h2l14 24 14-24h2v56h-8V58L48 82 34 58v34h-10z" fill="#ffffff" opacity="0.12"/>
+</svg>
